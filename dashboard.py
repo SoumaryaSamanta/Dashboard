@@ -16,7 +16,7 @@ sr.set_page_config(page_title = "Dashboard",
 @sr.cache_data(experimental_allow_widgets = True)
 def get_data_from_excel():
     df = pd.read_excel(
-        io = 'C:/Users/soumarya.samanta/.spyder-py3/2022_05_13_HourlyPowerData.xlsx',
+        io = 'D:/GitHub/Dashboard/2022_05_13_HourlyPowerData.xlsx',
         engine = 'openpyxl',
         sheet_name = 'Sheet3',
         skiprows = 0,
